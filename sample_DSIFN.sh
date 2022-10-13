@@ -17,6 +17,6 @@ CUDA_VISIBLE_DEVICES=$CUDA_ID python scripts/image_sample.py \
     --use_fp16 True \
     --use_scale_shift_norm True \
     --batch_size 16 \
-    --num_samples 700 \
+    --num_samples 1500 \
     --timestep_respacing 250 \
     --model_path models/DSIFN_ema_0.9999_840000.pt 
